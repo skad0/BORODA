@@ -1,0 +1,22 @@
+{
+  "name": "boroda",
+  "description": "cut or grow beard!",
+  "main": "app/server.js",
+  "authors": [
+    "Anton Krichevskii <mrskadi0@gmail.com>",
+    "Vitaly Belyakov <github.com/mrrichmine>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/skad0/boroda",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/view/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
