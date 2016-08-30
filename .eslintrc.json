@@ -12,6 +12,7 @@
     ],
     "rules": {
         "require-yield": "off",
-        "no-console": "off"
+        "no-console": "off",
+        "no-return-assign": "off"
     }
 }
