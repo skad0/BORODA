@@ -1,7 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,800';
 
+$font-size = 14px
+$color-main = #fff
+$color-secondary = #000
+
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: $font-size;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -16,7 +21,34 @@ body {
 
 .body {
     width: 100%;
-    white-space: nowrap;
+    white-space: nowrap;    
+    
+    &__vote {
+        box-sizing: border-box;
+        padding: 5% 1%;
+    }
+}
+
+.button {
+    margin: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 3px solid $color-secondary;
+    color: $color-secondary;
+    cursor: pointer;
+    
+    &:hover {
+        background: $color-secondary;
+        color: $color-main;
+    }
+    
+    &_size {
+        &_xl {
+            width: 150px;
+            font-size: 2em;
+        }
+    }
 }
 
 .col {
@@ -31,6 +63,20 @@ body {
         }
         &_big {
             width: 60%;
+        }
+    }
+    
+    &_align {
+        &_center {
+            text-align: center;
+        }
+    }
+}
+
+.icon {
+    &_size {
+        &_xl {
+            width: 80%;
         }
     }
 }
