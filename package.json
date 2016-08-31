@@ -9,7 +9,7 @@
   "author": "Anton Krichevskii <mrskadi0@gmail.com>",
   "contributors": [
     "Vitaly Belyakov <github.com/mrrichmine>"
-  ], 
+  ],
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
@@ -31,6 +31,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.0.3",
     "gulp-stylus": "^2.5.0",
     "gulp-uglify": "^2.0.0",
     "nodemon": "^1.10.2"
